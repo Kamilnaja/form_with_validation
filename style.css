@@ -1,4 +1,24 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
-  display: flex;
   background-color: #ed5e1f;
+  font-family: 'Armata', sans-serif;
+}
+
+.main-form {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.header {
+  color: #484848;
+  font-size: 3.0rem;
+}
+
+.subheader {
+  color: #767676;
+  font-size: 1.1rem;
 }
