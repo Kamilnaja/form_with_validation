@@ -4,25 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
 </head>
 
 <body>
   <div class="container">
-    <div class="main-form">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="header text-xs-center">Get In Touch With Us</h1>
-          <p class="subheader text-xs-center">
-            Feel free to drop us a line and we’ll get back to you in 48 hours max!
-          </p>
-        </div>
-      </div>
+    <div class="form-wrapper">
+      <h1 class="header">
+        Get In Touch With Us
+      </h1>
+      <p class="subheader">
+        Feel free to drop us a line and we’ll get back to you in 48 hours max!
+      </p>
+      <form action="">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="example: John Doe">
+        <label for="number">Your Phone Number</label>
+        <input type="tel" id="number" placeholder="example: 0800 1233456">
+        <label for="email">Your Email Address</label>
+        <input type="email" id="email" placeholder="example: office@gmail.com">
+        <label for="user-message">Your Message</label>
+        <textarea name="message" id="user-message" cols="30" rows="10"></textarea>
+        <button class="btn-submit">
+          Submit Your Message
+        </button>
+      </form>
     </div>
   </div>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.js"></script>
 </body>
 
 </html>
